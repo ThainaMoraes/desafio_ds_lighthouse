@@ -199,9 +199,10 @@ b) Faciliade de aplicação do modelo para o dataset. O modelo SES rodou com tem
 
 É necessário executar o primeiro notebook chamado: *desafio_ds_fill_na_values.ipynb*. Este irá gerar dois arquivos de saída:
 
-- *df_final_with_no_na_values.csv*  - Este arquivo sera usado dentro do segundo notebook.
-- *'filled_values.csv'* - O arquivo está localizado na pasta *files* e este é o arquivo final com os dados 'no data' preenchidos, ainda sem o modelo de predição. 
+- *df_final_with_no_na_values.csv*  - Este arquivo sera usado dentro do segundo notebook.*
+- *filled_values.csv* - O arquivo está localizado na pasta *files* e este é o arquivo final com os dados 'no data' preenchidos, ainda sem o modelo de predição. 
 
+***Foi optado em criar dois arquivos de saída para facilitar a manipulação do dataset dentro do segundo notebook, considerando que foram feitas substituições nos nomes de alguns países e colunas. Porém o arquivo final 'filled_values.csv*' segue conforme o modelo original dos dados, apenas com inputamento dos dados faltantes.** 
 #### b) Segundo notebook
 
 O segundo notebook se chama: *desafio_ds_predict_values.ipynb*.
